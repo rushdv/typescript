@@ -55,4 +55,6 @@ const myName: Name = "Abdullah"
 
 // function type alias
 
-const add = (num1, num2) => num1 + num2;
+type AddFunction = (num1: number, num2: number) => number;
+const add: AddFunction = (num1, num2) => num1 + num2;
+console.log(add(5, 3));
