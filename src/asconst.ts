@@ -26,7 +26,7 @@ const UserRoles = {
 
  */
 
-UserRoles.Admin = "admin1" // error
+ // UserRoles.Admin = "admin1" // error
 
 const canEdit = (role: typeof UserRoles[keyof typeof UserRoles]) => {
     if (role === UserRoles.Admin || role === UserRoles.Editor) {
