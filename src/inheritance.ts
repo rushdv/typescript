@@ -38,5 +38,3 @@ const GraduateStudent1 = new GraduateStudent("Bob", 25, "456 Elm St", "Machine L
 console.log(GraduateStudent1.name); // Output: Bob
 GraduateStudent1.study(5); // Output: Bob is studying for 5 hours.
 GraduateStudent1.research(); // Output: Bob is researching on Machine Learning.     
-
-
